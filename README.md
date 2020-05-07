@@ -9,7 +9,7 @@ Things you may want to cover:
 	
 	Install this project on your Local System
 
-	git clone https://github.com/helpyio/helpy.git
+	git clone https://github.com/ps1117/contact_form_assigment.git
 
 * Ruby version
 	ruby 2.5.1p57
