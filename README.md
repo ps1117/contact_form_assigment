@@ -35,7 +35,3 @@ Things you may want to cover:
 
 	The two external services to help out:
 	an email provider like Sendgrid
-
-* Deployment instructions
-
-* ...
