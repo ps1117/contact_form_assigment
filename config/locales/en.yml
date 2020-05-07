@@ -1,0 +1,30 @@
+en:
+  language_name: 'English' # The name of the translation file, in that language
+  root: &root 'Home'
+  enter_first_name: Tell us your name
+  enter_email: Enter your email
+  enter_no: Enter phone number
+  enter_message: Message
+  send_message: Send Us A Message
+  write_message: Write us a message
+  thank_you: Thanks for reaching out!  We will get back to you soon!
+  message_required: Message is required
+  email_req: "Valid email is required: ex@abc.xyz"
+  first_name_req: Type first name
+  last_name_req: Type last name
+  mobile_req: Eg. +1 800 000000
+  address: Address
+  address_value: Mada Center 8th floor, 379 Hudson St, New York, NY 10018 US
+  lets_talk: Lets Talk
+  support: General Support
+  email: Eg. example@email.com
+  thank_email: Thank You For Selecting Our Company. Our representative will contact you very soon.
+  dear_name: Dear
+  activerecord:
+    attributes:
+      contact_form:
+        email: Email
+        first_name: First Name
+        message: Message
+        mobile_no:  Mobile No
+        last_name: Last Name

@@ -1,0 +1,6 @@
+<h3>New Enquiry Details</h3>
+<br/>
+<p>Name:<%= @contact_form.try(:get_name) %></p>
+<p>Email:<%= @contact_form.try(:email) %></p>
+<p>Contact No:<%= @contact_form.try(:mobile_no) %></p>
+<p>Message<%=  @contact_form.try(:message) %></p>

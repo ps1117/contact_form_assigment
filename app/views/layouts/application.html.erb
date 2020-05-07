@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ContactFormAssigment</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE; chrome=1">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="robots" content="nofollow, noindex">
+  <%= stylesheet_link_tag  'application', media: 'all', 'data-turbolinks-track' => true  %>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/assets/favicon.ico"/>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <p>
+    <ul>
+      <% ["en", "hi", "fr"].each do |l| %>
+        <li><%= link_to "#{l.upcase}- #{I18n.translate("language_name", locale: l).mb_chars.capitalize.to_s}", "/#{l if l != 'en'}" %></li>
+      <% end %>
+    </ul>
+  </p>
+  <%= yield %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true  %>
+  <%= yield :script %>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-23581568-13');
+	</script>
+</body>
+</html>
+

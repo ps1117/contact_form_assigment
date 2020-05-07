@@ -1,0 +1,4 @@
+<% if @contact_form.errors.empty? %>
+  $("#contact-form-content").html("<div class='alert'><span class='closebtn'>&times;</span><%= t(:thank_you) %></div></div>");
+  $('#contact_data')[0].reset();
+<% end %>

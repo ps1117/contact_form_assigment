@@ -1,0 +1,30 @@
+hi:
+  language_name: 'हिंदी'
+  root: &root 'होम'
+  enter_first_name: हमें अपना नाम बताओ
+  enter_email: अपना ईमेल दर्ज करें
+  enter_no: फोन नंबर दर्ज
+  enter_message: संदेश
+  send_message: हमें एक संदेश भेजें
+  write_message: हमें एक संदेश लिखें
+  thank_you: खोज लेने के लिए धन्यवाद!  हम तुमसे जल्द ही संपर्क करेंगे!।
+  message_required: संदेश आवश्यक है
+  email_req: मान्य ईमेल आवश्यक है ex@abc.xy
+  first_name_req: प्रकार पहला नाम
+  last_name_req: संदेश आवश्यक है
+  mobile_req: उदाहरण के लिए। +1 800 000000
+  address: पता
+  address_value: माडा सेंटर 8 वीं मंजिल, 379 हडसन सेंट, न्यूयॉर्क, एनवाई 10018 यूएस
+  lets_talk: चल बात करते है
+  support: सामान्य समर्थन
+  email: उदाहरण के लिए। example@email.com
+  thank_email: हमारी कंपनी का चयन करने के लिए धन्यवाद। हमारे प्रतिनिधि आपसे बहुत जल्द संपर्क करेंगे।
+  dear_name: प्रिय
+  activerecord:
+    attributes:
+      contact_form:
+        email: ईमेल
+        first_name: पहला नाम
+        message: संदेश
+        mobile_no:  मोबाइल न
+        last_name: उपनाम

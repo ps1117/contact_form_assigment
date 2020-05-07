@@ -1,0 +1,31 @@
+fr:
+  language_name: "Français"
+  root: &root "Accueil"
+  enter_first_name: Dites-nous votre nom
+  enter_email: Entrer votre Email
+  enter_no: Entrez le numéro de téléphone
+  enter_message: Message
+  send_message: Envoie-nous un Message
+  write_message: Écrivez-nous un message
+  thank_you: Merci d'avoir tendu la main! Nous reviendrons vers vous bientôt!
+  message_required: Message est requis
+  email_req: Un email valide est requis ex@abc.xyz
+  first_name_req: Tapez le prénom
+  last_name_req: Saisissez le nom de famille
+  mobile_req: Par exemple. +1 800 000000
+  address: Adresse
+  address_value: Mada Center 8th floor, 379 Hudson St, New York, NY 10018 États-Unis
+  lets_talk: Parlons
+  support: Support général
+  email: Par exemple. example@email.com
+  thank_email: Merci d'avoir choisi notre entreprise. Notre représentant vous contactera très prochainement.
+  dear_name: Chère
+  activerecord:
+    attributes:
+      contact_form:
+        email: Email
+        first_name: Prénom
+        message: Message
+        mobile_no:  Mobile Non
+        last_name: Nom de famille
+
